@@ -1,8 +1,50 @@
-# React + Vite
+# Pokedex - Proyecto Final del Curso de React (Codo a Codo)
+Este repositorio contiene el proyecto final del curso de React impartido por la academia "Codo a Codo". El proyecto consiste en una Pokedex realizada utilizando React y Vite, conectada a la PokeAPI para obtener información sobre los Pokémon.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Descripción del Proyecto
+La Pokedex es una aplicación web interactiva que permite a los usuarios buscar y visualizar información detallada sobre diferentes Pokémon. La aplicación está diseñada con una interfaz amigable y responsiva, facilitando la navegación tanto en dispositivos de escritorio como móviles.
 
-Currently, two official plugins are available:
+Funcionalidades Principales
+Búsqueda de Pokémon: Permite buscar Pokémon por nombre tipo o número.
+Listado de Pokémon: Muestra una lista de Pokémon con sus imágenes y nombres.
+Detalles del Pokémon: Proporciona información detallada sobre cada Pokémon, incluyendo sus estadísticas, tipos y habilidades.
+Interfaz Reactiva: Diseñada con React y Vite para una experiencia de usuario rápida y eficiente.
+Conexión a PokeAPI: Utiliza la API de PokeAPI para obtener datos actualizados y precisos sobre los Pokémon.
+Tecnologías Utilizadas
+React: Biblioteca principal para construir la interfaz de usuario.
+Vite: Herramienta de construcción rápida y ligera para proyectos de front-end.
+PokeAPI: API utilizada para obtener datos sobre los Pokémon.
+CSS: Estilización de la aplicación para una presentación visual atractiva.
+Miembros del Grupo
+Este proyecto fue desarrollado por el Grupo 2 del curso, conformado por los siguientes integrantes:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+César Ferrarotti
+Karen Benítez
+Carlos Barraza
+Federico Tripodi
+Instalación y Ejecución
+Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
+
+Clona este repositorio:
+bash
+Copiar código
+git clone https://github.com/tu-usuario/pokedex-react.git
+Navega al directorio del proyecto:
+bash
+Copiar código
+cd pokedex-react
+Instala las dependencias:
+bash
+Copiar código
+npm install
+Ejecuta la aplicación:
+bash
+Copiar código
+npm run dev
+La aplicación estará disponible en http://localhost:3000.
+
+Contribuciones
+Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor realiza un fork del repositorio, crea una rama con tus cambios y envía un pull request.
+
+¡Esperamos que disfrutes explorando nuestra Pokedex! Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue.
+
