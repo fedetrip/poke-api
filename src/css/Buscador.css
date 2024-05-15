@@ -45,3 +45,38 @@
   box-shadow: 0 10px 20px var(--dark-bg-solid);
   margin-left: 10px;
 }
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: fit-content;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+}
+.modal h3 {
+  font-family: var(--alternative-font);
+  color: var(--gray-font-solid); /* Color del texto */
+
+  font-size: var(--font-xlarge);
+  margin-bottom: 10px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.modal p {
+  font-family: var(--base-font);
+  color: var(--gray-font-solid); /* Color del texto */
+  font-size: var(--font-medium);
+  margin-bottom: 10px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}

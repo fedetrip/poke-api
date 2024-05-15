@@ -3,7 +3,8 @@ import "../css/Buscador.css";
 import { getAllData } from "../utils/getAllData";
 import { Loading } from "./Loading";
 
-import { PokemonCard } from "../components/PokemonCard";
+import { PokemonCard } from "./PokemonCard";
+import { BusquedaNula } from "./BusquedaNula";
 
 export const Buscador = () => {
   const [buscador, setBuscador] = useState("");
@@ -67,21 +68,23 @@ export const Buscador = () => {
       {loading ? (
         <Loading />
       ) : (
-        <form
-          className="form"
-          onSubmit={handleSubmit}
-        >
-          <h2>Gotta catch 'em all</h2>
-          <input
-            className="input"
-            type="text"
-            value={buscador}
-            onChange={handleChange}
-            placeholder="Search your favorite Pokémon"
-          />
-        </form>
+        <>
+          <form
+            className="form"
+            onSubmit={handleSubmit}
+          >
+            <h2>Gotta catch 'em all</h2>
+            <input
+              className="input"
+              type="text"
+              value={buscador}
+              onChange={handleChange}
+              placeholder="Search your favorite Pokémon"
+            />
+          </form>
+          {resultado.length === 0 ? <BusquedaNula /> : <ShowGrid />}
+        </>
       )}
-      {<ShowGrid />}
     </>
   );
 };
