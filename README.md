@@ -1,7 +1,8 @@
 # Pokedex - Proyecto Final del Curso de React (Codo a Codo)
-## GRUPO 2
 
-Este repositorio contiene el proyecto final del curso de especialización en React Js de "Codo a Codo" comision #24303. El proyecto consiste en una Pokedex realizada utilizando **React** y **Vite**, conectada a la **PokeAPI** para obtener información sobre los Pokémon.
+Este repositorio contiene el proyecto final del curso de React impartido por la academia "Codo a Codo". El proyecto consiste en una Pokedex realizada utilizando **React** y **Vite**, conectada a la **PokeAPI** para obtener información sobre los Pokémon.
+
+Puedes ver la aplicación desplegada en el siguiente enlace: [Pokedex en Netlify](https://pokedex-codo-react.netlify.app/)
 
 ## Descripción del Proyecto
 
@@ -10,7 +11,7 @@ La Pokedex es una aplicación web interactiva que permite a los usuarios buscar 
 ### Funcionalidades Principales
 
 - **Búsqueda de Pokémon:** Permite buscar Pokémon por nombre tipo o número.
-- **Listado de Pokémon:** Muestra una lista de tarjetas Pokémon con sus imágenes y nombres.
+- **Listado de Pokémon:** Muestra una lista de Pokémon con sus imágenes y nombres.
 - **Detalles del Pokémon:** Proporciona información detallada sobre cada Pokémon, incluyendo sus estadísticas, tipos y habilidades.
 - **Interfaz Reactiva:** Diseñada con React y Vite para una experiencia de usuario rápida y eficiente.
 - **Conexión a PokeAPI:** Utiliza la API de PokeAPI para obtener datos actualizados y precisos sobre los Pokémon.
@@ -34,6 +35,7 @@ Este proyecto fue desarrollado por el Grupo 2 del curso, conformado por los sigu
 ## Instalación y Ejecución
 
 Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
+
 
 1. **Clona este repositorio:**
    ```bash
