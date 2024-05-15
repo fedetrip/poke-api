@@ -91,3 +91,15 @@
 .container {
   max-width: 1200px;
 }
+@media screen and (max-width: 768px) {
+  .pokemon-data {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "name"
+      "img"
+      "type"
+      "specs"
+      "desc"
+      "foot";
+  }
+}
