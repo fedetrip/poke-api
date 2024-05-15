@@ -37,7 +37,7 @@ Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
 
 1. **Clona este repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/pokedex-react.git
+   git clone https://github.com/fedetrip/poke-api.git
 
 2. **Navega al directorio del proyecto:**
     ```bash
