@@ -40,13 +40,13 @@ Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
    git clone https://github.com/tu-usuario/pokedex-react.git
 
 2. **Navega al directorio del proyecto:**
-```bash
+    ```bash
     cd pokedex-react
 
 3. **Navega al directorio del proyecto:**
-```bash
+    ```bash
     npm i
 
 4. **Ejecuta la aplicacion:**
-```bash
-npm run dev
+    ```bash
+    npm run dev
