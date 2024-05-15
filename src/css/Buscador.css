@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  /* margin-bottom: 10px; */
+}
+.form h2 {
+  font-family: permanent marker;
+
+  color: white; /* Color del texto */
+  text-shadow: -1px -1px 0 #0800ff,
+    /* sombra arriba izquierda */ 1px -1px 0 #0800ff,
+    /* sombra arriba derecha */ -1px 2px 0 #0800ff,
+    /* sombra abajo izquierda */ 1px 2px 0 #0800ff; /* sombra abajo derecha */
+  font-size: var(--font-xlarge);
+  margin-bottom: 10px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.input {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #333;
+  background-color: var(--light-bg-solid);
+  /* box-shadow: 0 10px 20px var(--dark-bg-solid); */
+}
+.button {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #333;
+  background-color: var(--light-bg-solid);
+  box-shadow: 0 10px 20px var(--dark-bg-solid);
+  margin-left: 10px;
+}

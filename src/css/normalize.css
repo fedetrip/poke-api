@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+    margin: 0;    
+    padding: 0;
+    box-sizing: border-box;  /* empuja el contenido hacia dentro, si es content-box, pero el tamaño lo tira para afuera*/
+}
+
+html {
+    
+    font-size: 62.5%;   /* em(texto-fuente ) -- rem(caja- contenedores)  */
+    
+}
+
+a {
+    text-decoration: none;
+   color: inherit;
+}
+
+
+
+ul, ol {
+    list-style: none;
+}
+
