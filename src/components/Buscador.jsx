@@ -43,7 +43,7 @@ export const Buscador = () => {
 
   const ShowGrid = () => {
     return (
-      <ul className="pokemon-grid">
+      <ul className="pokemon-grid container">
         {resultado.map((pokemon) => (
           <PokemonCard
             key={pokemon.id}
@@ -58,12 +58,19 @@ export const Buscador = () => {
     setBuscador(event.target.value);
   };
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+  };
+
   return (
     <>
       {loading ? (
         <Loading />
       ) : (
-        <form className="form">
+        <form
+          className="form"
+          onSubmit={handleSubmit}
+        >
           <h2>Gotta catch 'em all</h2>
           <input
             className="input"

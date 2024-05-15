@@ -1,0 +1,11 @@
+.light {
+  background-color: var(--light-bg-solid);
+  color: var(--light-font-solid);
+  border-color: var(--light-font-solid);
+}
+
+.dark {
+  background-color: var(--dark-bg-solid);
+  color: var(--dark-font-solid);
+  border-color: var(--dark-font-solid);
+}

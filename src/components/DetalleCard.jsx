@@ -114,7 +114,7 @@ export const DetalleCard = () => {
               to="/"
               className="pokemon-back"
             >
-              Back to Home
+              <span className="material-symbols-outlined">arrow_back</span>
             </Link>
           </div>
         </div>
