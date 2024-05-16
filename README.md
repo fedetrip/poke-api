@@ -46,7 +46,7 @@ Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
     ```bash
     cd pokedex-react
 
-3. **Navega al directorio del proyecto:**
+3. **Instala las dependencias:**
     ```bash
     npm i
 
